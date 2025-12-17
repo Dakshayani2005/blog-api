@@ -80,7 +80,7 @@ It demonstrates a **real-world one-to-many relationship** with proper **data int
 
 **Authors (1) → (∞) Posts**
 
-text
+```text
 +-------------+             +--------------+
 |   Authors   |             |    Posts     |
 +-------------+             +--------------+
@@ -89,7 +89,6 @@ text
 | email       |             | content      |
 +-------------+             | authorId (FK)|
                             +--------------+
-
 ##🚀 Development Setup
 
 1.Install dependencies
